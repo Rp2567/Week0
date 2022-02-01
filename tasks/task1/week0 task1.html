@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <script type="text/javascript">
+
+       function validate()
+       {
+           var email = document.getElementById("email").value;
+           var password = document.getElementById("password").value;
+           console.log([email,password]);
+           alert("You have logged in!");
+       }
+        </script>
+        <link rel="sylesheet" href="Week0 task1.css">
+    </head>
+    <body>
+        <div>
+            <form id="b">
+                <h1 style="color: yellowgreen;">LOGIN</h1>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <br>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <br>
+                <button class="button" type="submit" onclick="validate()" value="Submit">Login</button>
+                <br>
+                <a class="link" target="_blank" href="https://www.kjscecodecell.com/">Go to Login Page!</a>
+                </form>
+        </div>
+    </body>
+</html>
